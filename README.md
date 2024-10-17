@@ -1,63 +1,82 @@
 # 안녕하세요, AI 개발자 구영득 입니다! 👋
-
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnumbersflow&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## 🚀 About Me
-
-AI와 백엔드 개발에 열정을 가진 개발자입니다. 특히 NLP, 기계학습 모델 개발, 그리고 클라우드 기반의 확장 가능한 시스템 구축에 전문성을 가지고 있습니다.
+AI와 백엔드 개발에 열정을 가진 개발자입니다. NLP, 기계학습 모델 개발, 클라우드 기반의 확장 가능한 시스템 구축, 그리고 MLOps에 전문성을 가지고 있습니다.
 
 ## 🛠 Tech Stack
-
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white)
 ![TensorRT](https://img.shields.io/badge/-TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Triton](https://img.shields.io/badge/-Triton-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Nemo](https://img.shields.io/badge/-Nemo-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apache-airflow&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/-HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![TeamCity](https://img.shields.io/badge/-TeamCity-000000?style=flat-square&logo=teamcity&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Poetry](https://img.shields.io/badge/-Poetry-60A5FA?style=flat-square&logo=poetry&logoColor=white)
 
-## 🏆 Projects
+## 💼 Work Experience
 
-### 기업 컬쳐핏 AI 모델 개발 (2023.07 ~ 2024.07)
-- LLaMa 3.1 기반 기업 컬쳐핏 AI 모델 개발
-- 600만+ 기업 HR 데이터 크롤링 및 전처리
-- 딥스피드 활용 모델 학습 최적화
-- SFT, RM, PPO 알고리즘 기반 강화학습 파이프라인 구축
+### 그레이비랩 (2023.07 - 현재)
+**직책:** 주임
+**담당업무:** MLOps 관리 및 도메인 LLM 개발
+**연봉:** 3900만원
 
-### ASKTOBI (2024.01 ~ 2024.05)
-- 클로드 3.5 기반 자기소개서 작성 지원 시스템 개발
-- Airflow, Selenium 활용 채용 공고 자동 수집 시스템 구축
-- FastAPI, PostgreSQL 기반 비동기 백엔드 구현
-- Kubernetes 활용 확장 가능한 인프라 구축
+#### 주요 프로젝트:
 
-### Easy Finetuning (진행 중) 🚧
-- AI 모델 파인튜닝을 위한 사용자 친화적 웹 인터페이스 개발
-- 직관적인 UI/UX로 복잡한 파인튜닝 프로세스 단순화
-- 실시간 학습 모니터링 및 결과 시각화 기능 구현
-- 다양한 모델과 데이터셋 지원을 위한 확장 가능한 아키텍처 설계
+1. **MLOps 구현 (2023.07 - 2023.11)**
+   - 데이터 수집, 정제, 파인튜닝, 모델 평가 파이프라인 구성
+   - Airflow를 활용한 데이터 흐름 제어
+   - 1,200만개 이상의 데이터 수집 및 정제
+   - 웹 기반 파인튜닝 인터페이스 구축
+
+2. **기업 컬쳐덱 추론 LLM 모델 개발 (2023.11 - 2024.03)**
+   - EEVE-10.8B 기반 기업 컬쳐덱 추론 LLM 개발
+   - 특화 평가 데이터셋 구축
+   - 클라우드 VM에서 확장 가능한 모델 서빙 시스템 구축
+
+3. **자기소개서 생성 LLM 모델 개발 (2024.03 - 2024.09)**
+   - EXAONE3.0-7.8B 기반 자기소개서 생성 LLM 개발
+   - PPO 강화학습을 통한 모델 성능 향상
+   - 클라우드 VM 환경에서 확장 가능한 서빙 시스템 구현
+
+4. **운영 도메인 LLM 양자화 (2024.09 - 2024.10)**
+   - Q4_K_S 방식으로 도메인 LLM 양자화
+   - 모델 크기 85% 이상 감소, 추론 속도 2배 향상
+   - VM 사용 비용 80% 절감 (370만원 → 75만원)
+   - 양자화 모델 테스트를 위한 웹 프론트 구성
+
+### 미스터마인드 (2022.03 - 2023.06)
+**직책:** 사원
+**담당업무:** 음성 챗봇 시스템 개발 및 데이터 관리
+**연봉:** 4300만원
+
+#### 주요 프로젝트:
+
+1. **임베디드 양방향 음성 통신 시스템 (2022.03 - 2022.04)**
+   - 구글 TTS, STT API 활용 양방향 음성 통신 시스템 개발
+   - 응답 지연시간 200ms 이하 달성
+   - 동시 사용자 처리량 300% 증가
+   - API 호출 비용 40% 절감
+
+2. **어르신 맞춤형 대화형 AI 시스템 개발 (2022.04 - 2022.10)**
+   - GPT-2 기반 공손체 특화 대화 모델 개발
+   - 10만+ 문장쌍의 고품질 한국어 대화 데이터셋 구축
+   - 어르신 친화적 응답 생성 정확도 85% 달성
+
+3. **다중 감정 분석 시스템 개발 (2022.10 - 2022.11)**
+   - 5만+ 문장의 다범주 감정 레이블링 데이터셋 구축
+   - ELECTRA 기반 4개 감정 분류 모델 개발 (F1 스코어 0.967 달성)
+   - 클라우드 기반 확장 가능한 모델 서빙 아키텍처 구현
 
 ## 📈 GitHub Stats
-
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=numbersflow&show_icons=true&theme=radical)
 
-## 🌟 Featured Repositories
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=numbersflow&repo=easy_finetuning)](https://github.com/numbersflow/easy_finetuning)
-
 ## 📫 How to reach me
-
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](Your_LinkedIn_URL)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:eriko20190801@gmail.com)
 
 ---
-
 ⭐️ From [numbersflow](https://github.com/numbersflow)
