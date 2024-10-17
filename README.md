@@ -71,8 +71,6 @@ AI와 백엔드 개발에 열정을 가진 개발자입니다. NLP, 기계학습
    - ELECTRA 기반 4개 감정 분류 모델 개발 (F1 스코어 0.967 달성)
    - 클라우드 기반 확장 가능한 모델 서빙 아키텍처 구현
 
-## 📈 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=numbersflow&show_icons=true&theme=radical)
 
 ## 📫 How to reach me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](Your_LinkedIn_URL)
